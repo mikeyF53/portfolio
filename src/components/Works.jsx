@@ -9,24 +9,24 @@ const Works = () => {
   return (
     <div>
       <article>
-      <img className='project-img' src={p1}/>
-      <a href='https://the-candy-drop.surge.sh/'>The Candy Drop</a>
-      <p>Desc</p>
+      
+      <a href='https://the-candy-drop.surge.sh/'><img className='project-img' src={p1}/></a>
+      <p>The Candy Drop</p>
       </article>
       <article>
-      <img className='project-img' src={p2}/>
-      <a href='https://nifty-swirles-9a8f36.netlify.com/'>What's for lunch?</a>
-      <p>Desc</p>
+      
+      <a href='https://nifty-swirles-9a8f36.netlify.com/'><img className='project-img' src={p2}/></a>
+      <p>What's for lunch?</p>
       </article>
       <article>
-      <img className='project-img' src={p3}/>
-      <a href='http://luxuriant-bun.surge.sh/'>Postpic</a>
-      <p>Desc</p>
+      
+      <a href='http://luxuriant-bun.surge.sh/'><img className='project-img' src={p3}/></a>
+      <p>Postpic</p>
       </article>
       <article>
-      <img className='project-img' src={p4}/>
-      <a href='https://stark-harbor-15567.herokuapp.com/' >CodeTutor</a>
-      <p>Desc</p>
+      
+      <a href='https://stark-harbor-15567.herokuapp.com/'><img className='project-img' src={p4}/></a>
+      <p>CodeTutor</p>
       </article>
 
     </div>

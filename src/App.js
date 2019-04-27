@@ -11,10 +11,10 @@ function App() {
   return (
     <div className='App'>
       <Nav />
-      <Route exact path='/home' render={() => <Main />} />
+      <Route exact path='/' render={() => <Main />} />
       <Route exact path='/works' render={() => <Works />} />
       <Route exact path='/about' render={() => <About /> } />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
