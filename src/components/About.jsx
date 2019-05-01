@@ -11,7 +11,7 @@ const About = (props) => {
     <div ref={about} className='about'>
       <img className='propic' src={propic} alt='pro pic' />
       <p className='bio'>
-        As a former United States Marine, and web developer, I’m constantly
+        As a former United States Marine, and a current full-stack web developer, I’m constantly
         looking for ways to help people in their everyday lives with my military
         background. It has trained me to be diligent and perceptive to my
         surroundings and my work. In my freetime I love to
