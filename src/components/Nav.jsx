@@ -1,12 +1,14 @@
 import React from 'react'
-import { Route, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
-const Nav = () => {
-  return (
+const Nav = (props) => {
+  const { goTo } = props
+   return (
     <div className='nav'>
-      <Link to='/about'>About</Link>
-      <Link to='/'>Home</Link>
-      <Link to='/works'>Works</Link>
+    
+      <p onClick={() => goTo('/')}>Home</p>
+      <p onClick={() => goTo('about')}>About</p>
+      <p onClick={() => goTo('works')}>Works</p>
     </div>
   )
 }

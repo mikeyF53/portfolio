@@ -6,15 +6,15 @@ import propic from '../img/propic.jpg';
 
 const About = () => {
   return (
-    <div>
+    <div className='about'>
       <img className='propic' src={propic} alt='pro pic' />
       <p className='bio'>
-        As a former United States Marine, and a new web developer, I’m always
-        looking for ways to help people in their everyday lives. My military
-        background has trained me to be diligent and perceptive to my work and
-        surroundings. I am a dog lover, and a person who loves to binge watch
-        comedy and sci-fi shows. I have a strong belief in “if you can think it,
-        then you can make it.”
+        As a former United States Marine, and web developer, I’m constantly
+        looking for ways to help people in their everyday lives with my military
+        background. It has trained me to be diligent and perceptive to my
+        surroundings and my work. In my freetime I love to
+        binge watch comedy and sci-fi shows. I have a strong belief in “if you
+        can think it, then you can make it.”
       </p>
       <div className='icon-container'>
         <div className='icon-box'>
