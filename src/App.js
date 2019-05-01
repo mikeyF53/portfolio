@@ -10,9 +10,7 @@ import './App.css';
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      is_home: 'home'
-    };
+
     this.main = React.createRef();
     this.about = React.createRef();
     this.works = React.createRef();
@@ -21,9 +19,9 @@ class App extends Component {
 
   goTo(ref) {
     if (ref === 'main') {
-      this.main.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      this.main.current.scrollIntoView({ behavior: 'smooth', block: 'end' });
     } else if (ref === 'about') {
-      this.about.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      this.about.current.scrollIntoView({ behavior: 'smooth', block: 'end' });
     } else if (ref === 'works') {
       this.works.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
@@ -34,9 +32,9 @@ class App extends Component {
     return (
       <div className='App'>
         <Nav goTo={this.goTo} />
-        <Main />
-        <About />
-        <Works />
+        <Main main={this.main} />
+        <About about={this.about} />
+        <Works works={this.works}/>
         <Footer />
       </div>
     );

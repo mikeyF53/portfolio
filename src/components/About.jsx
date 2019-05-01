@@ -4,9 +4,11 @@ import express from '../img/express1.png';
 import rails from '../img/railsb.png';
 import propic from '../img/propic.jpg';
 
-const About = () => {
+const About = (props) => {
+  const { about } = props
+
   return (
-    <div className='about'>
+    <div ref={about} className='about'>
       <img className='propic' src={propic} alt='pro pic' />
       <p className='bio'>
         As a former United States Marine, and web developer, I’m constantly

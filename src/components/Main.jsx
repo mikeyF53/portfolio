@@ -1,9 +1,10 @@
 import React from 'react';
 
-const Main = () => {
-  return (
+const Main = (props) => {
+  const { main } = props
+    return (
     <div>
-      <div className='main-container'>
+      <div ref={main} className='main-container'>
         <div className='background-img'>
           <div className="cover"></div>
         </div>

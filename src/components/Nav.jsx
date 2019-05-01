@@ -6,9 +6,9 @@ const Nav = (props) => {
    return (
     <div className='nav'>
     
-      <p onClick={() => goTo('/')}>Home</p>
-      <p onClick={() => goTo('about')}>About</p>
-      <p onClick={() => goTo('works')}>Works</p>
+      <a onClick={() => goTo('main')}>Home</a>
+      <a onClick={() => goTo('about')}>About</a>
+      <a onClick={() => goTo('works')}>Works</a>
     </div>
   )
 }
