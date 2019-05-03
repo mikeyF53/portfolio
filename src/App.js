@@ -19,7 +19,7 @@ class App extends Component {
 
   goTo(ref) {
     if (ref === 'main') {
-      this.main.current.scrollIntoView({ behavior: 'smooth', block: 'end' });
+      this.main.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
     } else if (ref === 'about') {
       this.about.current.scrollIntoView({ behavior: 'smooth', block: 'end' });
     } else if (ref === 'works') {

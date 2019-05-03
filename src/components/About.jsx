@@ -4,19 +4,21 @@ import express from '../img/express1.png';
 import rails from '../img/railsb.png';
 import propic from '../img/propic.jpg';
 
-const About = (props) => {
-  const { about } = props
+const About = props => {
+  const { about } = props;
 
   return (
     <div ref={about} className='about'>
-      <img className='propic' src={propic} alt='pro pic' />
+      <div className='pic-box'>
+        <img className='propic' src={propic} alt='pro pic' />
+      </div>
       <p className='bio'>
-        As a former United States Marine, and a current full-stack web developer, I’m constantly
-        looking for ways to help people in their everyday lives with my military
-        background. It has trained me to be diligent and perceptive to my
-        surroundings and my work. In my freetime I love to
-        binge watch comedy and sci-fi shows. I have a strong belief in “if you
-        can think it, then you can make it.”
+        As a former United States Marine, and a current full-stack developer,
+        I’m constantly looking for ways to help people in their everyday lives.
+        My military background has trained me to be diligent and perceptive to
+        my surroundings and my work. In my freetime I love to binge watch comedy
+        and sci-fi shows. I have a strong belief in “if you can think it, then
+        you can make it.”
       </p>
       <div className='icon-container'>
         <div className='icon-box'>
