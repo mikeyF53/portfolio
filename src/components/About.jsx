@@ -2,7 +2,7 @@ import React from 'react';
 import ruby from '../img/Rubyicon.png';
 import express from '../img/express1.png';
 import rails from '../img/railsb.png';
-import propic from '../img/propic.jpg';
+import propic from '../img/mikeheadshot.jpg';
 
 const About = props => {
   const { about } = props;
@@ -20,6 +20,7 @@ const About = props => {
         and sci-fi shows. I have a strong belief in “if you can think it, then
         you can make it.”
       </p>
+      <h4>Skills</h4>
       <div className='icon-container'>
         <div className='icon-box'>
           <i className='html' class='fab fa-html5 fa-3x' />
