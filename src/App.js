@@ -5,6 +5,8 @@ import Works from './components/Works';
 import About from './components/About';
 import Contact from './components/Contact';
 import Carousel from './components/Carousel';
+import Footer from './components/Footer';
+
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { render } from "react-dom";
 import { Route, Link } from 'react-router-dom';
@@ -42,7 +44,7 @@ class App extends Component {
         <About about={this.about} />
         <Works works={this.works}/>
         <Contact contact={this.contact}/>
-        
+        <Footer />
       </div>
     );
   }

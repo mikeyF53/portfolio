@@ -172,7 +172,7 @@ h4 {
 }
 
 h1 {
-  padding-top: 30px;
+  padding-top: 55px;
   margin: 0 0 45px 0;
 }
 .works h1 {
@@ -181,7 +181,7 @@ h1 {
 .footer {
   position: relative;
   background: black;
-  bottom: -30%;
+  /* bottom: -30%; */
   height: 4.5vh;
   color: white;
 }

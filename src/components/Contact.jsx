@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
-import Footer from '../components/Footer';
 
 
 const Contact = props => {
@@ -31,7 +30,7 @@ const Contact = props => {
           Send
         </Button>
       </Form>
-      <Footer />
+      
     </div>
   );
 };
