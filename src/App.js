@@ -6,12 +6,10 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Carousel from './components/Carousel';
 import Footer from './components/Footer';
-
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { render } from "react-dom";
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import { render } from 'react-dom';
 import { Route, Link } from 'react-router-dom';
 import './App.css';
-
 
 class App extends Component {
   constructor(props) {
@@ -32,7 +30,10 @@ class App extends Component {
     } else if (ref === 'works') {
       this.works.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
     } else if (ref === 'contact') {
-      this.contact.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      this.contact.current.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
     }
   }
 
@@ -42,8 +43,8 @@ class App extends Component {
         <Nav goTo={this.goTo} />
         <Main main={this.main} />
         <About about={this.about} />
-        <Works works={this.works}/>
-        <Contact contact={this.contact}/>
+        <Works works={this.works} />
+        <Contact contact={this.contact} />
         <Footer />
       </div>
     );
@@ -51,4 +52,4 @@ class App extends Component {
 }
 
 export default App;
-render(<App />, document.getElementById("root"));
+render(<App />, document.getElementById('root'));

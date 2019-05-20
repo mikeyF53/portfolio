@@ -43,7 +43,7 @@ const Works = props => {
           <a href="http://luxuriant-bun.surge.sh/">
           <p className='legend'>
             <h3>PostPic</h3>
-            A group project to create a similiar app to Instagram. Built with
+            A group project to create a similar app to Instagram. Built with
             React on Express.
           </p>
           </a>
